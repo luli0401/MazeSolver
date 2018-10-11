@@ -61,6 +61,7 @@ namespace MazeSolver.Processor
             else if (Maze.IsEndPoint(x, y))
             {
                 IsMazeSolved = true;
+
                 Console.WriteLine("The End Point is Col: " + x + " Row: " + y + " Steps using: " + step);
             }
         }
